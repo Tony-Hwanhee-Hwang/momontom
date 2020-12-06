@@ -4,9 +4,10 @@ Clone coding chrome extension "Momentom" with vanilla JS
 # Features
 - [x] Clock
 - [x] To do List
-- [x] Weather
+- [x] Weather with Geolocation
 - [x] Random background
-- [x] Offline support using local storage
+- [x] Username Persistance
+- [x] Offline Todo list and username support using local storage
 
 # Demo
 https://tony-hwanhee-hwang.github.io/momontom/index.html
