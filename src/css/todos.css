@@ -1,0 +1,62 @@
+.todo-area {
+	max-width: 600px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+}
+
+.todo-input {
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	padding: 3px 10px;
+	width: 100%;
+	font-size: 2rem;
+}
+
+.todo-container {
+	margin-top: 24px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+	height: 200px;
+}
+
+.container {
+	width: 50%;
+}
+
+.container h1 {
+	text-align: center;
+	margin: 12px 0;
+}
+
+ul {
+	list-style: none;
+	overflow: auto;
+	height: 120px;
+}
+
+li {
+	font-size: 1.2rem;
+	height: 2rem;
+	overflow-x: hidden;
+}
+
+li button {
+	float: right;
+	outline: none;
+	border: none;
+	background: none;
+	color: white;
+}
+
+li button:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}

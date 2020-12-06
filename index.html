@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/css/clock.css">
+    <link rel="stylesheet" href="src/css/greeting.css">
+    <link rel="stylesheet" href="src/css/todos.css">
+    <link rel="stylesheet" href="src/css/weather.css">
+  </head>
+
+  <body>
+    <!-- WEATHER -->
+    <div class="weather-area"></div>
+
+    <!-- CLOCK -->
+    <div class="clock-area">
+      <div class="clock-date"></div>
+      <div class="clock-time"></div>
+    </div>
+
+    <!-- GREETING -->
+    <div class="greeting-area">
+      <form class="greeting">
+        <input class="greeting-input" placeholder="What's your name?"/>
+        <h1 class="greeting-sayHello"></h1>
+      </form>
+    </div>
+
+    <!-- TODOS -->
+    <div class="todo-area">
+      <form class="todos">
+        <input class="todo-input" placeholder="Add task"/>
+      </form>
+      <div class="todo-container">
+        <div class="container">
+          <h1>Pending</h1>
+          <ul class="todos-pending"></ul>
+        </div>
+        <div class="container">
+          <h1>Finish</h1>
+          <ul class="todos-finish"></ul>
+        </div>
+      </div>
+    </div>
+        
+    <script src="https://kit.fontawesome.com/98e4e5f6fc.js" crossorigin="anonymous"></script>
+    <script src="src/background.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/greeting.js"></script>
+    <script src="src/todos.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>

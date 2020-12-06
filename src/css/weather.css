@@ -1,0 +1,26 @@
+.weather-area {
+	color: white;
+	margin: 0 auto;
+	margin-top: 36px;
+	background: rgba(0, 0, 0, 0.3);
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+	width: 200px;
+	position: fixed;
+	top: 12px;
+	right: 24px;
+	padding: 3px 10px;
+}
+
+.weather-area div {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-direction: column;
+}
+
+.weather-area img {
+	width: 80px;
+	height: 80px;
+}
